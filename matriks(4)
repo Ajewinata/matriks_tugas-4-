@@ -1,0 +1,17 @@
+a = [[1,2]]
+b = [[1,2]]
+
+baris_a = len(a)
+kolom_a = len(a[0])
+baris_b = len(b)
+kolom_b = len(b[0])
+
+print("baris matriks a adalah", baris_a)
+print("kolom matriks a adalah", kolom_a)
+print("baris matriks b adalah", baris_b)
+print("kolom matriks b adalah", kolom_b)
+
+if kolom_a != baris_b:
+    print("matriks a dengan b tidak dapat dikalikan")
+else:
+    print("matriks a dengan b dapat dikalikan")
