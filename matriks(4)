@@ -42,7 +42,7 @@
 </head>
 <body>
   <div class="container">
-    <button id="redirect-btn">pencet dongzz</button>
+    <button id="redirect-btn">pencet dongzzz</button>
   </div>
   <script>
     // Pilih tombol dengan id "redirect-btn"
