@@ -1,17 +1,58 @@
-a = [[1,2]]
-b = [[1,2]]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tombol Arahkan ke Instagram</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+    }
 
-baris_a = len(a)
-kolom_a = len(a[0])
-baris_b = len(b)
-kolom_b = len(b[0])
+    .container {
+      text-align: center;
+    }
 
-print("baris matriks a adalah", baris_a)
-print("kolom matriks a adalah", kolom_a)
-print("baris matriks b adalah", baris_b)
-print("kolom matriks b adalah", kolom_b)
+    #redirect-btn {
+      background-color: #ff0000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 15px 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
 
-if kolom_a != baris_b:
-    print("matriks a dengan b tidak dapat dikalikan")
-else:
-    print("matriks a dengan b dapat dikalikan")
+    #redirect-btn:hover {
+      background-color: #cc0000;
+    }
+
+    #redirect-btn:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button id="redirect-btn">pencet dongzz</button>
+  </div>
+  <script>
+    // Pilih tombol dengan id "redirect-btn"
+    const redirectButton = document.getElementById('redirect-btn');
+
+    // Tambahkan event listener untuk klik
+    redirectButton.addEventListener('click', () => {
+      // Arahkan ke tautan Instagram Stories
+      window.location.href = 'https://www.instagram.com/stories/ti_uinma/3540115785807135250?igsh=bGYxbGNyZ21jMWl0';
+    });
+  </script>
+</body>
+</html>
